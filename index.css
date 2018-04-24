@@ -1,0 +1,193 @@
+/*
+https://www.hipsthetic.com/10-best-free-80s-fonts/
+*/
+
+@font-face {
+    font-family: 'neon';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf');
+
+}
+@font-face{
+    font-family: 'eightys';
+    src: url('sfalienenc/TrueType/SFAlienEncounters.ttf');
+}
+@font-face{
+    font-family: 'eightysI';
+    src: url('sfalienenc/TrueType/SFAlienEncountersSolid-Ital.ttf');
+}
+@font-face{
+    font-family: 'listHeadliner';
+    src: url('sfalienenc/VCR_OSD_MONO_1.001.ttf');
+}
+@font-face{
+    font-family: 'neonText';
+    src: url('sfalienenc/Neoneon.otf');
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: black;
+  text-align: center;
+  /*
+  background-image: url("http://68.media.tumblr.com/dc62dbdf1ec205856b45cce2e016c129/tumblr_o2eny8ThJH1s4fz4bo1_500.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  */
+  background: url("http://68.media.tumblr.com/dc62dbdf1ec205856b45cce2e016c129/tumblr_o2eny8ThJH1s4fz4bo1_500.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+#titleThing{
+    margin-top: .3em;
+}
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+.neon {
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+.flux {
+  animation: flux 4s linear infinite;
+  -moz-animation: flux 4s linear infinite;
+  -webkit-animation: flux 4s linear infinite;
+  -o-animation: flux 4s linear infinite;
+}
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+
+
+#main{
+    width: 80%;
+    margin: auto;
+    /*background-color: #07071c;*/
+    height: 70%;
+}
+#main p{
+
+    color: white;
+    text-align: center;
+    text-shadow: #EB65FF 5px 5px 10px;
+    font-family: eightys;
+    font-size: 2.5em;
+}
+
+#main2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgba(102, 102, 102, 0.6);*/
+}
+#main2 a{
+    text-decoration: none;
+}
+#main2 h2{
+    font-family: neonText;
+    text-shadow: #EB65FF 5px 5px 10px;
+    font-size: 2.5em;
+    color: #E759FF;
+}
+#main2 p{
+    font-family: listHeadliner;
+    text-shadow: #0026E5 5px 5px 10px;
+    color: #7E8BFF;
+}
+#listItem{
+    background-color: black;
+    margin-bottom: auto;
+}
+#main3{
+    background-color: black;
+    width: 70%;
+    height:auto;
+    margin: auto;
+}
+#main3 h1{
+    padding-top: .2em;
+    font-family: eightys;
+    color: white;
+    text-shadow: #0026E5 5px 5px 10px;
+}
+#main3 p{
+    font-family: 'Righteous', cursive;
+    color: white;
+    padding-top: .2em;
+    padding-bottom: .2em;
+}
+#main3 a{
+    text-decoration: none;
+}
+#code{
+    margin:auto;
+    width: 60%;
+
+}
+#nav ul{
+    font-family: eightysI;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#nav li{
+    display:inline;
+}
+#nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+    background-color: #222;
+}

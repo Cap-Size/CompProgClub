@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'eightys';
+    src: url('SFAlienEncountersSOLID.tff') format('tff');
+}
+body{
+    background-color: #000;
+    font-family: 'eightys';
+    color: blue;
+}
